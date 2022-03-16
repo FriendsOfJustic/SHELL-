@@ -94,14 +94,11 @@ void lush_loop(char *info,char**env)
     print_info(info);
     line_read(line);
     //printf(line);
-    phrase=line_cut(line);
-   // int i=0;
-   // while(phrease[i])
-   // {
-   //   printf("%s\n",phrease[i]);
-   //   i++;
-   // }
-    phrase_excute(phrase,&return_value,env);
+    if(line[0])
+    {
+      phrase=line_cut(line);
+      phrase_excute(phrase,&return_value,env);
+    }
   }
 }
 
