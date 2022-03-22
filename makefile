@@ -1,5 +1,5 @@
 myshell:main.c
-	gcc main.c -o myshell -std=c99 -g -w
+	gcc main.c -o myshell -std=c99 -O
 
 
 .PHONY:clean

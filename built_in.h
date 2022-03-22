@@ -38,6 +38,8 @@ int lsh_help(char **p)
 int lsh_echo(char**p)
 {
 
+
+
 }
 
 int env_operate(char **env,char ** phrase)   //设置环境变量
