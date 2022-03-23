@@ -15,4 +15,5 @@
 - 环境变量设置
 
 如何执行：
-直接pull这个库，执行`./myshell`即可
+1. 执行`git clone https://github.com/FriendsOfJustic/SHELL-.git`拷贝此库
+2. 进入文件夹，执行`./myshell`即可
